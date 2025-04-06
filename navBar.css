@@ -2,15 +2,15 @@ body{
     font-family: 'poppins', sans-serif;
 }
 
-a{
+nav a{
     text-decoration: none;
 }
 
-ul{
+nav ul{
     margin:15px;
 }
 
-li{
+nav li{
     list-style:none;
 }
 
@@ -70,7 +70,7 @@ nav{
         right: 0px;
     }
 
-    ul {
+    nav ul {
         padding: 0px;
         display: flex;
         justify-content: space-between;

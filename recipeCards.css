@@ -80,7 +80,7 @@ article {
   
   
   /************************ 
-  Generic layout (demo looks)
+  Generic layout
   **************************/
   
   *,
@@ -92,7 +92,7 @@ article {
   body {
     margin-top:80px;
     font-family: "Figtree", sans-serif;
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;*/
     line-height: 1.6rem;
     background-image: linear-gradient(230deg, #7c9885, #f3f3f3);
     min-height: 100vh;
@@ -107,13 +107,11 @@ article {
     gap: 24px;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 600px) {
     article {
       container: card/inline-size;
     }
-    .article-body p {
-      display: none;
-    }
+
     body{
       margin: initial;
       margin-top: 20px;

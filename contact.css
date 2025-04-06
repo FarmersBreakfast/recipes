@@ -76,7 +76,7 @@
   .user-card-img img {
     width: 150px;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
   }
   
   .user-card-info {
@@ -110,6 +110,7 @@
       text-align: left;
       padding-left: 30px;
     }
+
   }
  
   @media (max-width: 767px){
@@ -124,7 +125,11 @@
     .wrapper{
        padding-top: 3%;
     }
-
+    .user-card-img img {
+        width: 250px;
+        height: 200px;
+        object-fit: fill;
+      }
     .user-card:before {
        width: 300%;
        height: 300px;
