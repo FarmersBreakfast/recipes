@@ -1,7 +1,7 @@
  /* Base styles */
  :root {
-     --primary: #2cacb9;
-     --primary-hover: #2cacb9;
+     --primary: #f5f3ef;
+     --primary-hover: #f5f3ef;
      --background: #f8fafc;
      --surface: #ffffff;
      --text: #1e293b;
@@ -59,7 +59,7 @@
     position: absolute;
     height: 300%;
     width: 310px;
-    background: black;
+    background: #f5f3ef;
     top: -60px;
     left: -125px;
     z-index: 0;
@@ -213,12 +213,12 @@
 
  button {
      background-color: var(--primary);
-     color: white;
+     color: black;
      border: none;
      padding: 0.875rem 1.5rem;
      border-radius: 0.75rem;
      font-size: 1rem;
-     font-weight: 500;
+     font-weight: bold;
      cursor: pointer;
      transition: all 0.2s ease;
      width: 100%;
