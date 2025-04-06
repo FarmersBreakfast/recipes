@@ -90,8 +90,7 @@ article {
   }
   
   body {
-    margin: 0;
-    padding: 48px 0;
+    margin-top:80px;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -100,7 +99,6 @@ article {
   }
   
   .articles {
-    margin-top: 80px;
     display: grid;
     max-width: 1200px;
     margin-inline: auto;
@@ -116,12 +114,14 @@ article {
     .article-body p {
       display: none;
     }
+    body{
+      margin: initial;
+      margin-top: 20px;
+      margin-bottom: 80px;
+    }
   }
   
   @container card (min-width: 400px) {
-    .articles{
-      margin-top: 10px;
-    }
     .article-wrapper {
       display: grid;
       grid-template-columns: 100px 1fr;

@@ -59,7 +59,7 @@
     position: absolute;
     height: 300%;
     width: 310px;
-    background: #2cacb9;
+    background: black;
     top: -60px;
     left: -125px;
     z-index: 0;
@@ -115,6 +115,7 @@
   @media (max-width: 767px){
     body{
         padding:0px;
+        padding-bottom: 80px;
     }
     #main-content{
         margin:20px;
