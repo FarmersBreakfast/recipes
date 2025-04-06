@@ -119,6 +119,9 @@ article {
   }
   
   @container card (min-width: 400px) {
+    .articles{
+      margin-top: 10px;
+    }
     .article-wrapper {
       display: grid;
       grid-template-columns: 100px 1fr;

@@ -62,7 +62,7 @@ nav{
     nav {
 
         top: initial;
-        
+        z-index: 100;
         background-color: white;
         position: fixed;
         bottom: 0px;
