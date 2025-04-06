@@ -113,6 +113,13 @@
   }
  
   @media (max-width: 767px){
+    body{
+        padding:0px;
+    }
+    #main-content{
+        margin:20px;
+        
+    }
     .wrapper{
        padding-top: 3%;
     }
