@@ -73,11 +73,11 @@
 
 @media only screen and (max-width: 500px) {
   .recipe-display-container  > .recipe-title{
-      font-size: 18px; /*20*/
+      font-size: 20px; /*20*/
       margin-bottom: 5px;
   }
   .display-heading{
-      font-size: 15px; /*18*/
+      font-size: 18px; /*18*/
       top: -12px;
       left: 50%;
       transform: translate(-50%);
@@ -121,8 +121,7 @@ button {
     width: 100%;
     overflow: auto;
     height: 100%;
-    padding: 2rem 5rem;
-    border-radius: 0;
+
     box-shadow: initial;
     text-align: justify;
   }
@@ -172,18 +171,4 @@ button {
       opacity: 0;
       transform: scale(0.3);
     }
-  }
-  /* Responsiveness */
-  @media(max-width: 992px) {
-    html { font-size: 14px; }
-    .modal-content { width: 80%; }
-  }
-  @media(max-width:767px) {
-    html { font-size: 12px; }
-    .modal-content { padding: 2rem 1rem 1rem 1rem; width: 90%; }
-    .modal-content h1 { margin-bottom: 1.5rem; }
-    .modal:nth-of-type(2) .modal-content { padding: 2rem 3rem; }
-    .modal:nth-of-type(3) { justify-content: center; }
-    .modal:nth-of-type(3) .modal-content { width: 80%; }
-    .modal:nth-of-type(5) .modal-content { max-width: 85%; }
   }
