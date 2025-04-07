@@ -72,7 +72,7 @@
 }
 
 @media only screen and (max-width: 500px) { /*below 600 i get a top and left margin*/
-  .recipe-display-container  > .recipe-title{
+  .recipe-display-container .recipe-title{
       font-size: 25px; /*20*/
       margin-bottom: 5px;
   }
