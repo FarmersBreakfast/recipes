@@ -81,4 +81,8 @@ nav{
         color: black;
         font-weight: bold;
     }
+    
+    nav .nav-active{
+        color:#7c9885;
+    }
 }

@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="navBar.css">
   <link rel="stylesheet" href="recipeCards.css">
+  <link rel="stylesheet" href="modal.css">
+  <script defer src="modal.js"></script>
 </head>
 <body>
 
@@ -17,7 +19,7 @@
     <a href="/recipes" class="logo">Farmer's Breakfast</a>
     <ul class="nav-bar">
       <li class="menu-item">
-        <a href="/recipes" class="menu-link">Home</a>
+        <a href="/recipes" class="menu-link nav-active">Home</a>
       </li>
       <li class="menu-item">
         <a href="contact.html" class="menu-link">Contact</a>
@@ -32,9 +34,8 @@
   </div>
 </nav>
 
-
   <section class="articles">
-    <article>
+    <article data-modal-target="modal">
       <div class="article-wrapper">
         <figure>
           <img src="Images/pancakes.png" alt="" />
@@ -53,6 +54,52 @@
         </div>
       </div>
     </article>
+    
+    <article class="modal" id="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <section class="recipe-display-container">
+          <div class="recipe-title">Easy Chocolate Chip Cookie</div>
+  
+          <div class="recipe-display-card display-firstchild">
+              <div class="display-heading">Ingredients</div>
+              <img src="Images/chocolatechip.png" alt="Chocolate Chip Cookie" class="cookie-img" />
+              <ul>
+                  <li>100 gr unsalted butter</li>
+                  <li>65 gr brown sugar</li>
+                  <li>70 gr white sugar</li>
+                  <li>2 eggs</li>
+                  <li>1 tsp vanilla extract</li>
+                  <li>200 gr all purpose flour</li>
+                  <li>1/2 tbsp baking soda</li>
+                  <li>200 gr chocolate bar chopped into bits</li>
+              </ul>
+          </div>
+  
+          <div class="recipe-display-card">
+              <div class="display-heading">Directions</div>
+              <ol>
+                  <li>Heat the oven to 160°C</li>
+                  <li>Combine butter, brown sugar, white sugar, egg and vanilla, mix thoroughly using a mixer</li>
+                  <li>Once combined, add flour and baking soda, mix it again with chocolate bits and a pinch of salt</li>
+                  <li>Take a scoop of dough, spread it across the trays, make sure it has enough spaces in between</li>
+                  <li>Bake for 10–15 minutes until the edge is crispy</li>
+                  <li>Let cool for at least 10 minutes on cooling rack</li>
+              </ol>
+          </div>
+      </section>
+      </div>
+    </article>
+
+    <article class="modal" id="modal2">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <p>2222orem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aspernatur mollitia qui veniam autem molestias commodi odit enim magnam assumenda suscipit, veritatis modi quibusdam a odio facilis voluptas praesentium perferendis dolores eveniet minima incidunt quam vel explicabo? Nemo, fugit voluptatem!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, voluptates quos. Voluptates, necessitatibus impedit voluptatibus et exercitationem quibusdam magni ullam maxime. Praesentium eveniet repudiandae nemo mollitia est dicta a voluptates voluptatem, repellat quo perferendis expedita autem delectus tempora facilis adipisci sunt voluptate harum veniam modi? Nostrum, molestias? Quos doloribus assumenda magni molestiae illum tempora, voluptatum optio aperiam vitae voluptates quis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, in veritatis debitis harum ipsum doloremque asperiores aspernatur temporibus ab ipsam velit quisquam consequuntur repellendus ducimus error maiores obcaecati deleniti quaerat culpa, dolorum assumenda voluptate nihil cumque magnam? Rem iste eveniet, voluptatem numquam nostrum est cum!</p>
+      </div>
+    </article>
+
     <article>
       <div class="article-wrapper">
         <figure>
