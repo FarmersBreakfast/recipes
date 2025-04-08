@@ -79,11 +79,30 @@
   .image-box {
     display: none;
   }
+
   .text-box {
     max-width: 100%;
-}
-}
+  }
 
+  .mission-right-padding {
+    padding-right: 0px;
+  }
+
+  .mission-left-padding {
+    padding-left: 0px;
+  }
+
+
+
+  .mission-container {
+    padding: 100px 25px;
+  }
+
+  .first-mission-container {
+    margin-top: 0px;
+  }
+
+}
 
 
 
@@ -228,14 +247,15 @@
   margin-left: 50px;
 
 }
-.timeline .content ul{
+
+.timeline .content ul {
   margin-left: 15px;
 
 }
 
-.mission-container ul{
-    margin-left: 15px;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
+.mission-container ul {
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
 }
