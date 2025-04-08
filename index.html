@@ -1,135 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Farmer's Breakfast</title>
   <link rel="icon" type="image/png" href="Images/favicon.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="navBar.css">
   <link rel="stylesheet" href="recipeCards.css">
   <link rel="stylesheet" href="modal.css">
   <script defer src="modal.js"></script>
 </head>
+
 <body>
 
-<nav>
-  <div class="main-nav">
-    <a href="/recipes" class="logo">Farmer's Breakfast</a>
-    <ul class="nav-bar">
-      <li class="menu-item">
-        <a href="/recipes" class="menu-link nav-active">Home</a>
-      </li>
-      <li class="menu-item">
-        <a href="contact.html" class="menu-link">Contact</a>
-      </li>
-      <li class="menu-item">
-        <a href="about.html" class="menu-link">About</a>
-      </li>
-      <li class="menu-item">
-        <a href="team.html" class="menu-link">Team</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav>
+    <div class="main-nav">
+      <a href="/recipes" class="logo">Farmer's Breakfast</a>
+      <ul class="nav-bar">
+        <li class="menu-item">
+          <a href="/recipes" class="menu-link nav-active">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="contact.html" class="menu-link">Contact</a>
+        </li>
+        <li class="menu-item">
+          <a href="about.html" class="menu-link">About</a>
+        </li>
+        <li class="menu-item">
+          <a href="team.html" class="menu-link">Team</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <section class="articles">
     <article class="recipe-article" data-modal-target="modal">
       <div class="article-wrapper">
         <figure>
-          <img src="Images/pancakes.png" alt="" />
+          <img src="Images/Cinnamonmuffinscard.png" alt="" />
         </figure>
         <div class="article-body">
-          <h2>Pancakes</h2>
-          <p>
-            Fluffy, golden, and made to impress—these pancakes are your weekend breakfast hero. Whether you stack 'em high or drizzle with syrup, butter, or berries, this recipe brings diner-style comfort to your own kitchen in minutes
-          </p>
+          <h2>Farmer’s Cinnamon Muffins</h2>
+          <p>Earthy, comforting, and full of old-fashioned charm—these muffins bring together hearty oats, warm
+            cinnamon, and a touch of flax for a wholesome, home-baked feel. Simple ingredients, rich flavor, and the
+            kind of goodness that reminds you of countryside kitchens.</p>
           <a href="#" class="read-more">
             See Recipe <span class="sr-only">about this is some title</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
             </svg>
           </a>
         </div>
       </div>
     </article>
-    
     <article class="modal" id="modal">
       <div class="modal-content">
         <span class="modal-close">&times;</span>
         <section class="recipe-display-container">
-          <div class="recipe-title">Easy Chocolate Chip Cookie</div>
-  
+          <div class="recipe-title">Farmer’s Cinnamon Muffins</div>
+
           <div class="recipe-display-card display-firstchild">
-              <div class="display-heading">Ingredients</div>
-              <img src="Images/chocolatechip.png" alt="Chocolate Chip Cookie" class="cookie-img" />
-              <ul>
-                  <li>100 gr unsalted butter</li>
-                  <li>65 gr brown sugar</li>
-                  <li>70 gr white sugar</li>
-                  <li>2 eggs</li>
-                  <li>1 tsp vanilla extract</li>
-                  <li>200 gr all purpose flour</li>
-                  <li>1/2 tbsp baking soda</li>
-                  <li>200 gr chocolate bar chopped into bits</li>
-              </ul>
+            <div class="display-heading">Ingredients</div>
+            <img src="Images/Cinnamonmuffin.png" alt="" class="cookie-img" />
+            <ul>
+              <li>2 cups Farmer’s Breakfast Multi-purpose Mix</li>
+              <li>⅓ cup water</li>
+              <li>2 tablespoons ground flaxseeds (milled linseeds)</li>
+              <li>¼ cup old fashioned rolled oats</li>
+              <li>1 tablespoon brown sugar</li>
+              <li>1 tablespoon coconut oil</li>
+              <li>¼ teaspoon ground cinnamon</li>
+            </ul>
           </div>
-  
+
           <div class="recipe-display-card">
-              <div class="display-heading">Directions</div>
-              <ol>
-                  <li>Heat the oven to 160°C</li>
-                  <li>Combine butter, brown sugar, white sugar, egg and vanilla, mix thoroughly using a mixer</li>
-                  <li>Once combined, add flour and baking soda, mix it again with chocolate bits and a pinch of salt</li>
-                  <li>Take a scoop of dough, spread it across the trays, make sure it has enough spaces in between</li>
-                  <li>Bake for 10–15 minutes until the edge is crispy</li>
-                  <li>Let cool for at least 10 minutes on cooling rack</li>
-              </ol>
+            <div class="display-heading">Directions</div>
+            <ol>
+              <li>Preheat oven to 190°C. </li>
+              <li>Line a 12-cup muffin tin with paper liners.</li>
+              <li>In a small bowl, mix together the water and flaxseeds. Set aside to allow it to gel.</li>
+              <li>In a separate small bowl, mix together the cinnamon crumb topping. Set aside.</li>
+              <li>In a large bowl, mix together the flours, brown sugar, baking powder, baking soda, cinnamon and salt.
+                Make a well in it, and add almond milk, coconut oil, vinegar, and flax egg. </li>
+              <li>Mix everything together using a fork, or a hand beater on low speed, until all the ingredients are
+                just combined. </li>
+              <li>Evenly divide the batter into the muffin cups until ½ full.
+                Evenly top with the cinnamon crumb topping.</li>
+              <li>Bake in the oven for about 16-18 minutes,</li>
+              <li>Allow to slightly cool in the tin, then transfer to a wire rack to finish cooling. </li>
+              <li>Serve warm or room temperature.</li>
+            </ol>
           </div>
-      </section>
+        </section>
       </div>
     </article>
 
-    <article class="recipe-article" data-modal-target="moda2">
+    <article class="recipe-article" data-modal-target="modal2">
       <div class="article-wrapper">
         <figure>
-          <img src="Images/muffins.png" alt="" />
+          <img src="Images/pancakescard.png" alt="" />
         </figure>
         <div class="article-body">
-          <h2>This is some title</h2>
-          <p>
-            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
-          </p>
+          <h2>Farmer’s Pancakes</h2>
+          <p>Quick, classic, and endlessly satisfying—these golden pancakes come together in minutes with just a few
+            pantry staples. Light, fluffy, and perfect for any morning craving.</p>
           <a href="#" class="read-more">
             See Recipe <span class="sr-only">about this is some title</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
             </svg>
           </a>
         </div>
       </div>
     </article>
+    <article class="modal" id="modal2">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <section class="recipe-display-container">
+          <div class="recipe-title">Farmer’s Pancakes</div>
 
-    <article class="recipe-article" data-modal-target="modal">
+          <div class="recipe-display-card display-firstchild">
+            <div class="display-heading">Ingredients</div>
+            <img src="Images/pancakes.png" alt="Chocolate Chip Cookie" class="cookie-img" />
+            <ul>
+              <li>1 cups Farmer’s Breakfast Multi-purpose Mix</li>
+              <li>1 Egg or egg substitute</li>
+              <li>½ Cup Water </li>
+            </ul>
+          </div>
+
+          <div class="recipe-display-card">
+            <div class="display-heading">Directions</div>
+            <ol>
+              <li>Combine all ingredients in a bowl and mix.</li>
+              <li>Pour or ladle the batter onto the oiled griddle or pan.</li>
+              <li>Cook until bubbles form, flip, and cook on the other side. </li>
+            </ol>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <article class="recipe-article" data-modal-target="modal3">
       <div class="article-wrapper">
         <figure>
-          <img src="https://picsum.photos/id/103/800/450" alt="" />
+          <img src="Images/WafflesCard.jpg" alt="" />
         </figure>
         <div class="article-body">
-          <h2>This is some title</h2>
+          <h2>Farmers Famous Waffles </h2>
           <p>
-            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
-          </p>
+            Golden, crisp, and beautifully tender inside—these waffles are weekend magic made easy. With a hint of
+            vanilla and buttery richness, they’re perfect for piling high with your favorite toppings and diving in,
+            bite after blissful bite</p>
           <a href="#" class="read-more">
             See Recipe <span class="sr-only">about this is some title</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
             </svg>
           </a>
         </div>
       </div>
     </article>
-  </section> 
+    <article class="modal" id="modal3">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <section class="recipe-display-container">
+          <div class="recipe-title">Farmer’s Pancakes</div>
+
+          <div class="recipe-display-card display-firstchild">
+            <div class="display-heading">Ingredients</div>
+            <img src="Images/pancakes.png" alt="Chocolate Chip Cookie" class="cookie-img" />
+            <ul>
+              <li>2 cups Farmer’s Breakfast Multi-purpose Mix</li>
+              <li>2 tablespoons white sugar </li>
+              <li>2 large eggs </li>
+              <li>1 ½ cups warm milk </li>
+              <li>⅓ cup butter, melted </li>
+              <li>1 teaspoon vanilla extract </li>
+            </ul>
+          </div>
+
+          <div class="recipe-display-card">
+            <div class="display-heading">Directions</div>
+            <ol>
+              <li>Gather all ingredients. </li>
+              <li>Mix Farmer’s Breakfast and sugar together in a large bowl; set aside. </li>
+              <li>Preheat waffle iron to desired temperature. </li>
+              <li>Beat eggs in a separate bowl; stir in milk, butter, and vanilla. </li>
+              <li>Pour milk mixture into flour mixture; beat until blended. </li>
+              <li>Ladle batter into a preheated waffle iron. </li>
+              <li>Cook waffles until golden and crisp. </li>
+              <li>Serve immediately and enjoy!</li>
+
+            </ol>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <article class="recipe-article" data-modal-target="modal4">
+      <div class="article-wrapper">
+        <figure>
+          <img src="Images/WafflesCard.jpg" alt="" />
+        </figure>
+        <div class="article-body">
+          <h2>Farmer’s Pound Cake </h2>
+          <p>
+            Moist, rich, and bursting with homemade flavor—this easy vanilla cake batter bakes up like a dream. Whether
+            you’re going for cupcakes or a classic sheet cake, every bite is soft, buttery, and ready for frosting, fun,
+            or a sprinkle of love.
+          </p>
+          <a href="#" class="read-more">
+            See Recipe <span class="sr-only">about this is some title</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+    <article class="modal" id="modal4">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <section class="recipe-display-container">
+          <div class="recipe-title">Farmer’s Pound Cake</div>
+
+          <div class="recipe-display-card display-firstchild">
+            <div class="display-heading">Ingredients</div>
+            <img src="Images/pancakes.png" alt="Chocolate Chip Cookie" class="cookie-img" />
+            <ul>
+              <li>2 cups Farmer’s Breakfast Multi-purpose Mix</li>
+              <li>1 cup Buttermilk</li>
+              <li>1 cup Coconut Oil</li>
+              <li>3 Eggs </li>
+              <li>2 tsp Vanilla Extract </li>
+            </ul>
+          </div>
+
+          <div class="recipe-display-card">
+            <div class="display-heading">Directions</div>
+            <ol>
+              <li>Preheat oven to 350</li>
+              <li>Take your dry ingredients and beat in all of the wet ingredients.</li>
+              <li>pour into greased cake pans or a greased 9×13</li>
+              <li>bake for 20-25 min</li>
+            </ol>
+          </div>
+        </section>
+      </div>
+    </article>
+
+    <article class="recipe-article" data-modal-target="modal5">
+      <div class="article-wrapper">
+        <figure>
+          <img src="Images/oatmeal.jpg" alt="" />
+        </figure>
+        <div class="article-body">
+          <h2>Farmers Peanut Butter Oatmeal Cookies</h2>
+          <p>
+            Rich, buttery, and packed with the perfect peanut flavor—these cookies are a crispy, chewy dream. With oats adding a rustic touch, each bite is a cozy indulgence, golden on the edges and soft in the middle. Perfect for any peanut butter lover.
+          </p>
+          <a href="#" class="read-more">
+            See Recipe <span class="sr-only">about this is some title</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+    <article class="modal" id="modal5">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <section class="recipe-display-container">
+          <div class="recipe-title">Farmers Peanut Butter Oatmeal Cookies</div>
+
+          <div class="recipe-display-card display-firstchild">
+            <div class="display-heading">Ingredients</div>
+            <img src="Images/oatmeal.png" alt="Chocolate Chip Cookie" class="cookie-img" />
+            <ul>
+              <li>1 ½  cup  Farmer’s Breakfast Multi-purpose Mix</li>
+              <li>½ cup (8oz, 2 sticks) salted butter softened</li>
+              <li>½  cup peanut butter creamy or chunky </li>
+              <li>2 large eggs</li>
+              <li>1 teaspoon vanilla extract</li>
+              <li>1 1/2 cup quick-cooking oats*</li>
+              <li>2 teaspoons baking soda</li>
+              <li>1/2 teaspoon salt</li>
+            </ul>
+          </div>
+
+          <div class="recipe-display-card">
+            <div class="display-heading">Directions</div>
+            <ol>
+              <li>Preheat your oven to 350°F. Line three baking sheets with parchment paper or silicone baking mats.</li>
+              <li>In a large bowl or the bowl of your stand mixer, combine butter, peanut butter, and sugar. Beat until well-combined and fluffy, 30 seconds to 1 minute.</li>
+              <li>Add eggs and vanilla. Beat until completely mixed.</li>
+              <li>Add Farmers Breakfast mix and oats.. Beat (if using a hand-held mixer or making by hand, use a wooden spoon to stir) until just mixed and a sticky dough forms.</li>
+              <li>Scoop golf-ball-sized scoops of batter onto baking sheets, 8 to a sheet as far apart as possible</li>
+              <li>Bake for 12 to 15 minutes, until cookies are browned around the edges and tops look mostly set. </li>
+              <li>Allow cookies to cool on baking tray. Enjoy!</li>
+            </ol>
+          </div>
+        </section>
+      </div>
+    </article>
+
+  </section>
 </body>
+
 </html>
