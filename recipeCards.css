@@ -111,7 +111,7 @@ article {
     .articles{
       padding-inline: 0px;
     }
-    article {
+    .recipe-article {
       container: card/inline-size;
       margin: 20px;
     }

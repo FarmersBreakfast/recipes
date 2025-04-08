@@ -63,15 +63,10 @@
     .display-heading{
         font-size: 30px;
         top: -20px;
-        left: 50%;
-        transform: translate(-50%);
-    }
-    .cookie-img{
-        display: none;
     }
 }
 
-@media only screen and (max-width: 500px) { /*below 600 i get a top and left margin*/
+@media only screen and (max-width: 600px) { /*below 600 i get a top and left margin*/
   .recipe-display-container .recipe-title{
       font-size: 25px; /*20*/
       margin-bottom: 5px;

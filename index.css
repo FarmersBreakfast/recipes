@@ -2,3 +2,6 @@ body{
     background-image: linear-gradient(230deg, #7c9885, #f3f3f3);
 
 }
+* {
+    font-family: Nunito, sans-serif;
+}

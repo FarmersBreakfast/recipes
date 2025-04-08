@@ -38,3 +38,15 @@ function toggleModal(modalId) {
     modal.classList.add("modal-show");
   }
 }
+
+
+/*
+There is a media query that is being hit
+can we use css to fist this if not just use javascript
+@media screen and (max-width: 600px) {
+    article {
+        container: card / inline-size;
+        margin: 20px;
+      }
+    }
+*/
